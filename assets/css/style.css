@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+    min-height: 80px;
+
+}
+.active{
+    color: #007bff !important;
+    border-bottom: 3px solid#d5e91e;
+}
+.sec1{
+    min-height: 400px;
+    margin-top: 100px;
+}
+.sec2{
+    min-height: 10px;
+    /* background-color: red; */
+}
+
+footer{
+    min-height: 80px;
+    padding: 30px;
+}
+@media screen and (max-width:500px) {
+    .h2-sec1 ,.p-sec1,.a-sec1{
+        text-align: center;
+    }
+
+}
